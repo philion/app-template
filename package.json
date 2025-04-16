@@ -16,6 +16,7 @@
 		"format": "prettier --write .",
 		"test:integration": "playwright test",
 		"test:unit": "vitest",
+		"predeploy": "vite build",
 		"deploy": "gh-pages -d dist"
 	},
 	"devDependencies": {
